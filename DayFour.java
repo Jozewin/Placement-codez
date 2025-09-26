@@ -38,18 +38,18 @@ public class DayFour {
     }
 
     public static void main(String[] args) {
-        Solution sol = new Solution();
+        Solution s = new Solution();
         char[][] board = {
             {'A','B','C','E'},
             {'S','F','C','S'},
             {'A','D','E','E'}
         };
-        String word1 = "ABCCED";
-        String word2 = "SEE";
-        String word3 = "ABCB";
+        String word_1 = "ABCCED";
+        String word_2 = "SEE";
+        String word_3 = "ABCB";
 
-        System.out.println(sol.exist(board, word1)); 
-        System.out.println(sol.exist(board, word2)); 
-        System.out.println(sol.exist(board, word3)); 
+        System.out.println(s.exist(board, word_1)); 
+        System.out.println(s.exist(board, word_2)); 
+        System.out.println(s.exist(board, word_3)); 
     }
 }
